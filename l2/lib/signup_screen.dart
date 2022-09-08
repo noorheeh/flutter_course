@@ -126,7 +126,7 @@ class SignupScreen extends StatelessWidget {
                 const Text('Already regstered?'),
                 TextButton(
                   onPressed: () {
-                    Navigator.of(context).push(
+                    Navigator.of(context).pushReplacement(
                       MaterialPageRoute(
                         builder: (BuildContext context) => const LoginScreen(),
                       ),
